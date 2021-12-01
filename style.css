@@ -4,14 +4,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    text-decoration: none;
 }
 
-.container{
+.row{
     width: 80%;
     max-width: 1180px;
     margin: 0 auto;
     height: 100%;
-    vertical-align: middle;
+    line-height: 80px;
 }
 
 
@@ -26,10 +27,6 @@ header{
     background-color: #3161e0;
 }
 
-.container .row{
-    line-height: 80px;
-}
-
 .box15 img{
     vertical-align: middle;
 }
@@ -38,6 +35,13 @@ header{
     width: 15%;
     float: left;
     display: inline-block;
+}
+
+.row div:first-child{
+    text-align: left;
+}
+
+.row div:last-child{
     text-align: right;
 }
 
@@ -51,10 +55,9 @@ header ul{
     text-align: center;
 }
 
-header .container nav a{
+header nav a{
     padding: 0px 20px;
     color: white;
-    text-decoration: none;
 }
 
 .bottone1{
@@ -64,3 +67,66 @@ header .container nav a{
     padding: 8px 10px;
 }
 /* fine menù */
+
+
+
+/* inizio banner */
+.jumbotron{
+    background-image: url('img/jumbo.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.row2{
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    top: 440px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#subtitle{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.bottone-big{
+    border-radius: 40px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bott-white{
+    background-color: white;
+    color: black;
+}
+
+.bott-black{
+    background-color: #23272a;
+    color: white;
+}
+
+.jumbotron #tastiera a{
+    margin: 0px 8px;
+}
+
+#tastiera{
+    margin-top: 40px;
+}
+/* fine banner */
