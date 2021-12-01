@@ -131,6 +131,10 @@ header nav a{
 #tastiera{
     margin-top: 40px;
 }
+
+.fas{
+    margin-right: 8px;
+}
 /* fine banner */
 
 /* inizio centro */
@@ -177,5 +181,30 @@ main .row div:last-child{
 #center{
     text-align: center;
     width: 70%;
+}
+
+#text-stars{
+    background-image: url('img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    padding: 0px 40px;
+    font-size: 30px;
+}
+
+.block{
+    display: block;
+}
+
+.bottone-small{
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bott-purple{
+    background-color: #8ea1e1;
+    color: white;
 }
 /* fine centro */
