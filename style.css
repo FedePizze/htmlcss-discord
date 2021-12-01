@@ -7,6 +7,7 @@
     text-decoration: none;
 }
 
+/* inizio menù */
 .row{
     width: 80%;
     max-width: 1180px;
@@ -15,8 +16,6 @@
     line-height: 80px;
 }
 
-
-/* inizio menù */
 .row::after{
     content: "";
     display: table;
@@ -37,11 +36,11 @@ header{
     display: inline-block;
 }
 
-.row div:first-child{
+header .row div:first-child{
     text-align: left;
 }
 
-.row div:last-child{
+header .row div:last-child{
     text-align: right;
 }
 
@@ -76,8 +75,7 @@ header nav a{
     background-position: center;
     background-size: cover;
     min-height: 600px;
-    width: 100%;
-    position: relative;
+    position: relative; 
 }
 
 .row2{
@@ -92,17 +90,21 @@ header nav a{
     transform: translate(-50%, -50%);
 }
 
-#title{
-    color: white;
+.title{
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 30px;
+    line-height: 60px;
 }
 
-#subtitle{
-    color: white;
+.subtitle{
     font-weight: 400;
     font-size: 20px;
+    line-height: 30px;
+}
+
+.jumbotron .row2 div:first-child{
+    color: white;
 }
 
 .bottone-big{
@@ -130,3 +132,50 @@ header nav a{
     margin-top: 40px;
 }
 /* fine banner */
+
+/* inizio centro */
+
+main .row{
+    padding: 50px 0px;
+}
+
+main .row img{
+    object-fit: cover;
+    height: auto;
+}
+
+main .row div:first-child{
+    width: 60%;
+    float: left;
+}
+
+main .row div:last-child{
+    width: 30%;
+    float: right;
+    color: #23272a;
+}
+
+#greyrow{
+    background-color: #f6f6f6;
+}
+
+#variante1{
+    float: left;
+    width: 30%;
+}
+
+#variante2{
+    float: right;
+    width: 60%;
+}
+
+#greywave{
+    margin: -10px;
+    padding: 0;
+}
+
+#center{
+    text-align: center;
+    width: 70%;
+}
+/* fine centro */
