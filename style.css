@@ -1,0 +1,66 @@
+/* generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+/* inizio menù */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    background-color: #3161e0;
+}
+
+.container .row{
+    line-height: 80px;
+}
+
+.box15 img{
+    vertical-align: middle;
+}
+
+.box15{
+    width: 15%;
+    float: left;
+    display: inline-block;
+    text-align: right;
+}
+
+header nav{
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+
+header ul{
+    text-align: center;
+}
+
+header .container nav a{
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.bottone1{
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    padding: 8px 10px;
+}
+/* fine menù */
