@@ -208,3 +208,48 @@ main .row div:last-child{
     color: white;
 }
 /* fine centro */
+
+/* inizio footer */
+footer{
+    background-color: #23272a;
+}
+
+/* inizo colonne */
+.box40{
+    width: 40%;
+    float: left;
+    display: inline-block;
+    background-color: red;
+    height: 100%;
+}
+
+footer .row .box15{
+    background-color: saddlebrown;
+}
+
+
+/* inizo colonne */
+.box50{
+    width: 50%;
+    display: inline-block;
+}
+
+footer .row{
+    line-height: 50px;
+}
+
+footer .row div:first-child{
+    text-align: left;
+    float: left;
+}
+
+.box50 img{
+    vertical-align: middle;
+}
+
+footer .row:last-child div:last-child{
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+}
+/* fine footer */
