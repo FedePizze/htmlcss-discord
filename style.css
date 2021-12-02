@@ -279,9 +279,8 @@ footer .row:last-child{
 }
 
 .bordo{
-    margin-top: 2px solid #ffffff;
     margin-top: 10px;
-    border-width: 10px;
+    border-top: 1px solid #8ea1e1;
 }
 
 footer .row div:first-child{
