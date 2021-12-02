@@ -215,27 +215,73 @@ footer{
 }
 
 /* inizo colonne */
+footer .row:first-child{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 .box40{
     width: 40%;
     float: left;
     display: inline-block;
-    background-color: red;
     height: 100%;
 }
 
-footer .row .box15{
-    background-color: saddlebrown;
+footer .box40 h2{
+    color: #8ea1e1;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
 }
 
+footer .fab{
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
 
-/* inizo colonne */
+.flag{
+    color: white;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.italy{
+    width: 30px;
+    vertical-align: middle;
+}
+
+footer .row .box15{
+    line-height: 30px;
+}
+
+footer .row .box15 h3{
+    color: #8ea1e1;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+footer .row .box15 ul li{
+    color: white;
+    list-style: none;
+    font-size: 15px;
+}
+
 .box50{
     width: 50%;
     display: inline-block;
 }
 
-footer .row{
+footer .row:last-child{
     line-height: 50px;
+    padding: 10px 0;
+    
+}
+
+.bordo{
+    margin-top: 2px solid #ffffff;
+    margin-top: 10px;
+    border-width: 10px;
 }
 
 footer .row div:first-child{
